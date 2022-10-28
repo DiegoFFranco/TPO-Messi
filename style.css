@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /* font-family: sans-serif; */
+       
+}
+
+html {
+    height: 100%;
+    scroll-padding-top: 72px;
+
+    
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    
+}
+
+/*****************
+ MENU NAVEGACION
+ *****************/
+.menu-fijo {
+    position: fixed;
+}
+
+.menu-todo {
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+}
+
+
+.logo {
+    height: 50px;
+    padding-left: 30px;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.menu-items li {    
+    list-style: none;
+    display: inline-block;
+    
+    /* padding: 0 0px;    */
+}
+
+.menu-items a {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+
+    margin: 0 20px;
+}
+
+.equipos img {
+    height: 40px;
+}
+/*****************
+ MAIN - contenido - GENERALES
+ *****************/
+
+
+h1, h2 {
+    text-align: center;
+
+}
+
+.wiki p {
+    margin: 30px 50px;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+.messi-solo {
+    margin-top: 8px;
+}
+
+/*****************
+ FLECHA ARRIBA
+ *****************/
+.siempre-al-top {
+    
+    display: inline;
+    left: 100%;
+    position: sticky;
+    bottom: 116px;
+    /* top: 1200px; */
+    margin-top: 80vh;
+    text-decoration: none;
+    /* padding: 100x 10px; */
+    color: black;
+    /* border-radius: 0px; */
+  }
+  .siempre-al-top span {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+  }
+  .siempre-al-top:hover {
+    color: rgb(124, 0, 128);
+  }
+/*****************
+ FOOTER - PIE-PAGINA
+ *****************/
+
+ footer {
+    margin-top: auto; /*mantiene el footer abajo cuando hay poco contenido*/
+ }
+ .pie-pagina {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: black;
+    
+ }
+
+ .pie-pagina img {
+    margin: 0;
+    height: 150px;
+ }
+ /*****************
+ INDEX CONTENIDO-MAIN
+ *****************/
+
+ 
+
+/*****************
+ PAGINA 2 CONTENIDO-MAIN
+ *****************/
+ /* .hero-padre {
+    display: flex;
+    top: 200px;
+
+ } */
+.hero-image { 
+   
+    /* background-image : url(./img/messi-goat2.png); */
+    display: flex;
+    height: 54vw;
+    flex-direction: row;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url("./img/messi-goat2.png"); */
+    background-image : url(./img/messi-goat2.png);
+
+    background-position: 0px 70px ;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.hero-text {
+    color: white;
+}
+ 
